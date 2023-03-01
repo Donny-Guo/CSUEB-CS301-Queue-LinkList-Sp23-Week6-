@@ -55,6 +55,8 @@ private:
     Node* head;
     Node* tail;
 
+    int numOfItems;
+    int maxSize = 10;
 };
 
 #include "Queue.cpp"
